@@ -1,0 +1,17 @@
+.nav1{
+  background-color: white;
+}
+
+
+.nav2{
+  background: brown;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+
+.nav2 p{
+  font-size: small;
+}
