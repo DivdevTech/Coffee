@@ -4,7 +4,6 @@ import App from "./App.jsx";
 import "../src/styles/index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Homepage from "./pages/homePage.jsx";
-import CustomNav from "./components/CustomNav.jsx";
 
 const router = createBrowserRouter([
   {

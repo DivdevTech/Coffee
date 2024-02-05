@@ -1,17 +1,17 @@
-.nav1{
-  background-color: white;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #f1f1f1;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
 }
 
-
-.nav2{
-  background: brown;
-  color: #fff;
-  display: flex;
-  justify-content: space-between;
-  
-  
+body {
+  background-color: #e0e1dd;
+  height: 70vh;
+  margin: 0;
 }
 
-.nav2 p{
-  font-size: small;
-}

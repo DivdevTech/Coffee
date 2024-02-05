@@ -1,0 +1,246 @@
+[
+  {
+    "name": "STOCKS",
+    "id": 13,
+    "children": [
+      {
+        "name": "Manage GRNS",
+        "id": 131,
+        "url": "/home"
+      },
+      {
+        "name": "Manage Warrants",
+        "id": 132,
+        "url": "/home"
+      },
+      {
+        "name": "Manage Outturns",
+        "id": 133,
+        "url": "/home"
+      },
+      {
+        "name": "Manage Quality",
+        "id": 134,
+        "children": [
+          {
+            "name": "Quality Operations",
+            "id": 1341,
+            "url": "/home"
+          },
+          {
+            "name": "Quality Reports",
+            "id": 1342,
+            "url": "/home"
+          }
+        ]
+      },
+      {
+        "name": "Manage Bulks",
+        "id": 135,
+        "children": [
+          {
+            "name": "Internal Bulks",
+            "id": 1351,
+            "url": "node"
+          },
+          {
+            "name": "External Bulks",
+            "id": 1352,
+            "url": "php"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "SALES",
+    "id": 14,
+    "children": [
+      {
+        "name": "Auction Sales",
+        "id": 141,
+        "children": [
+          {
+            "name": "Catalogue",
+            "id": 1411,
+            "url": ""
+          },
+          {
+            "name": "Auction",
+            "id": 1412,
+            "url": ""
+          },
+          {
+            "name": "Manage Grower Sales",
+            "id": 1413,
+            "children": [
+              {
+                "name": "Offer Notification",
+                "id": 14131,
+                "url": "/"
+              },
+              {
+                "name": "Sale Notification",
+                "id": 14132,
+                "url": "/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Direct Sales",
+        "id": 142,
+        "children": [
+          {
+            "name": "Manage Direct Sale",
+            "id": 1421,
+            "url": "/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ACCOUNTS",
+    "id": 15,
+    "children": [
+      {
+        "name": "Manage Buyer Sales",
+        "id": 151,
+        "children": [
+          {
+            "name": "Auction Invoices",
+            "id": 1511,
+            "url": "/"
+          },
+          {
+            "name": "Stock Positions",
+            "id": 1512,
+            "url": "/"
+          }
+        ]
+      },
+      {
+        "name": "Payments",
+        "id": 152,
+        "children": [
+          {
+            "name": "Process Sale",
+            "id": 1521,
+            "url": "/"
+          },
+          {
+            "name": "Payment Reports",
+            "id": 1522,
+            "url": "/"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "SETTINGS",
+    "id": 16,
+    "children": [
+      {
+        "name": "Grower Manager",
+        "id": 161,
+        "url": "/"
+      },
+      {
+        "name": "Contact Manager",
+        "id": 162,
+        "url": "/"
+      },
+      {
+        "name": "Certification Manager",
+        "id": 163,
+        "url": "/"
+      },
+      {
+        "name": "Location Manager",
+        "id": 164,
+        "url": "/"
+      },
+      {
+        "name": "Agents Manager",
+        "id": 165,
+        "url": "/"
+      },
+      {
+        "name": "More Settings",
+        "id": 166,
+        "url": "/"
+      }
+    ]
+  },
+  {
+    "name": "ADMINISTRATION",
+    "id": 18,
+    "children": [
+      {
+        "name": "Manage Users",
+        "id": 181,
+        "url": "/"
+      },
+      {
+        "name": "Manager Permissions",
+        "id": 182,
+        "url": "/"
+      },
+      {
+        "name": "Manager Data",
+        "id": 183,
+        "url": "/"
+      }
+    ]
+  },
+  {
+    "name": "PROFILE",
+    "id": 19,
+    "children": [
+      {
+        "name": "Admin",
+        "id": 191,
+        "url": "/"
+      },
+      {
+        "name": "Change Password",
+        "id": 192,
+        "url": "/"
+      },
+      {
+        "name": "Logout",
+        "id": 193,
+        "url": "/"
+      },
+      {
+        "name": "Exit",
+        "id": 194,
+        "url": "/"
+      }
+    ]
+  },
+  {
+    "name": "HELP",
+    "id": 20,
+    "children": [
+      {
+        "name": "About System",
+        "id": 201,
+        "url": "/"
+      },
+      {
+        "name": "User Guide",
+        "id": 202,
+        "url": "/"
+      },
+      {
+        "name": "Request Support",
+        "id": 203,
+        "url": "/"
+      }
+    ]
+  }
+]
