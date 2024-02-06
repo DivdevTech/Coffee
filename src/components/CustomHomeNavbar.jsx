@@ -57,12 +57,15 @@ const CustomNav = (props) => {
                   >
                     <div className="sub-menu-div">
                       <Link
-                        style={{ textDecoration: "none" }}
+                        style={{
+                          textDecoration: "none",
+                          fontSize: "15px",
+                          color: "black",
+                        }}
                         to={subitems.url}
                       >
                         <span>{subitems.name}</span>
                       </Link>
-                      <span className="arrow">{" >"}</span>
                     </div>
                     <motion.ul
                       variants={variants}
