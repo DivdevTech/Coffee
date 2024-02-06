@@ -10,8 +10,14 @@
 }
 
 body {
-  background-color: #e0e1dd;
+  background-color: white;
   height: 70vh;
   margin: 0;
 }
 
+/* Components stylings */
+.pagesNav{
+  background: linear-gradient(brown,white);
+  height: 35px;
+  margin: 2o;
+}

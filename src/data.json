@@ -6,12 +6,12 @@
       {
         "name": "Manage GRNS",
         "id": 131,
-        "url": "/home"
+        "url": "/grn"
       },
       {
         "name": "Manage Warrants",
         "id": 132,
-        "url": "/home"
+        "url": "/warrants"
       },
       {
         "name": "Manage Outturns",
@@ -41,7 +41,7 @@
           {
             "name": "Internal Bulks",
             "id": 1351,
-            "url": "node"
+            "url": "/internalbulk"
           },
           {
             "name": "External Bulks",
@@ -95,7 +95,7 @@
           {
             "name": "Manage Direct Sale",
             "id": 1421,
-            "url": "/"
+            "url": "/grn"
           }
         ]
       }
