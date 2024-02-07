@@ -6,8 +6,9 @@ import "../src/styles/index.css";
 import Root from "./routes/root.jsx";
 import ErrorPage from "./pages/ErrorPage.jsx";
 import Homepage from "./pages/homePage.jsx";
-import GrnList from "./pages/Stocks/GRN/GrnList.jsx";
 import InternalBulk from "./pages/Stocks/bulks/internalBulk.jsx";
+import GrnLayout from "./pages/Stocks/GRN/GrnLayout.jsx";
+import WarrantsLayout from "./pages/Stocks/Warrants/WarrantsLayout.jsx";
 
 const router = createBrowserRouter([
   {
@@ -15,22 +16,26 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />,
     children: [
       {
+        path: "/",
+        element: <App />,
+      },
+      {
+        path: "home",
+        element: <Homepage />,
+      },
+      {
         path: "grn",
-        element: <GrnList />,
+        element: <GrnLayout />,
+      },
+      {
+        path: "warrants",
+        element: <WarrantsLayout />,
       },
       {
         path: "internalbulk",
         element: <InternalBulk />,
       },
     ],
-  },
-  {
-    path: "/",
-    element: <App />,
-  },
-  {
-    path: "home",
-    element: <Homepage />,
   },
 ]);
 

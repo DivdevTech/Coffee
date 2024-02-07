@@ -1,12 +1,7 @@
 import React from "react";
-import Header from "../../../components/PageHeader";
 
 const GrnList = () => {
-  return (
-    <div>
-      <Header />
-    </div>
-  );
+  return <div>GrnList</div>;
 };
 
 export default GrnList;

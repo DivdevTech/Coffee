@@ -20,3 +20,12 @@ body {
   height: 35px;
   margin: 2o;
 }
+
+.closeBtn{
+  margin-left: 97%;
+ color: brown;
+ background-color: white;
+ font-size: 16px;
+ border: 1px solid;
+
+}
