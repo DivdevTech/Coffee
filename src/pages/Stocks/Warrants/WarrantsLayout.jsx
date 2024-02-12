@@ -1,5 +1,5 @@
 import React from "react";
-import TabbedLayout from "../../../components/Layout";
+import TabbedLayout from "../../../components/Layout/Layout";
 
 const WarrantsLayout = () => {
   return (

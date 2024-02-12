@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "../styles/index.css";
+import "../../styles/index.css";
 
 const TabbedLayout = ({ buttonRenderers, tabContentRenderers }) => {
   const [activeTabIndex, setActiveTabIndex] = useState(0);

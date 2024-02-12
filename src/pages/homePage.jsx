@@ -1,5 +1,5 @@
 import React from "react";
-import CustomNav from "../components/CustomHomeNavbar";
+import CustomNav from "../components/Layout/CustomHomeNavbar";
 import data from "../data.json";
 const Homepage = () => {
   return (

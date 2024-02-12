@@ -1,5 +1,5 @@
-import LoginPage from "../src/pages/loginPage";
-import CustomTable from "./components/CustomTable";
+// import LoginPage from "../src/pages/loginPage";
+import CustomTable from "./components/table/CustomTable";
 import "./styles/App.css";
 
 const App = () => {

@@ -1,10 +1,10 @@
 import React, { useMemo, useState } from "react";
 import { useTable } from "react-table";
 import { COLUMNS } from "./OutturnColumns";
-import MOCK_DATA from "./MOCK_DATA.json";
-import TabbedLayout from "./Layout";
+import MOCK_DATA from "../table/MOCK_DATA.json";
+import TabbedLayout from "../Layout/Layout";
 import { CiFilter } from "react-icons/ci";
-import CustomFIlter from "./Filter/CustomFIlter";
+import CustomFIlter from "../Filter/CustomFIlter";
 
 const CustomTable = () => {
   const [filterModal, setFilterModal] = useState(false);

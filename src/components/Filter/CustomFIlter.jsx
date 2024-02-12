@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./CustomFilter.css";
-import MOCK_DATA from "../MOCK_DATA.json";
+import MOCK_DATA from "../table/MOCK_DATA.json";
 
 const CustomFilter = () => {
   const [showFilter, setShowFilter] = useState(true);

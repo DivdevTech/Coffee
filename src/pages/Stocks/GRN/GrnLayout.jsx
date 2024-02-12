@@ -1,9 +1,9 @@
 import React from "react";
-import TabbedLayout from "../../../components/Layout";
-import NavButton from "../../../components/NavButton";
 import GrnList from "./GrnList";
 import GrnOutturn from "./GrnOutturns";
 import RegisterGrn from "./RegisterGrn";
+import TabbedLayout from "../../../components/Layout/Layout";
+import NavButton from "../../../components/btn/NavButton";
 
 const GrnLayout = () => {
   const renderButtons = () => [
