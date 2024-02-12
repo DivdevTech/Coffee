@@ -6,7 +6,7 @@ import "../src/styles/index.css";
 import Root from "./routes/root.jsx";
 import ErrorPage from "./pages/ErrorPage.jsx";
 import Homepage from "./pages/homePage.jsx";
-import InternalBulk from "./pages/Stocks/bulks/internalBulk.jsx";
+import InternalBulk from "./pages/Stocks/BULKS/internalBulk.jsx";
 import GrnLayout from "./pages/Stocks/GRN/GrnLayout.jsx";
 import WarrantsLayout from "./pages/Stocks/Warrants/WarrantsLayout.jsx";
 
