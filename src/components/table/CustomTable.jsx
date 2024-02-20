@@ -5,6 +5,7 @@ import MOCK_DATA from "../table/MOCK_DATA.json";
 import TabbedLayout from "../Layout/Layout";
 import { CiFilter } from "react-icons/ci";
 import CustomFIlter from "../Filter/CustomFIlter";
+import Accordion from "../accordion/Accordion";
 
 const CustomTable = () => {
   const [filterModal, setFilterModal] = useState(false);
@@ -55,7 +56,6 @@ const CustomTable = () => {
           <button>EXPORT X</button>
         </nav>
       </div>
-
       <table {...getTableProps()}>
         <thead>
           {headerGroups.map((headerGroup) => (
@@ -111,12 +111,11 @@ const CustomTable = () => {
       <br />
       <br />
       <CustomFIlter />
+      <br /> <br />
       <br />
       <br />
       <br />
-      <br />
-      <br />
-      <br />
+      <Accordion />
       <br />
       <br />
       <br />

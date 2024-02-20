@@ -16,7 +16,7 @@
       {
         "name": "Manage Outturns",
         "id": 133,
-        "url": "/home"
+        "url": "/outturns"
       },
       {
         "name": "Manage Quality",
@@ -25,12 +25,12 @@
           {
             "name": "Quality Operations",
             "id": 1341,
-            "url": "/home"
+            "url": "/qualityoperation"
           },
           {
             "name": "Quality Reports",
             "id": 1342,
-            "url": "/home"
+            "url": "/qualityreport"
           }
         ]
       },
@@ -46,7 +46,7 @@
           {
             "name": "External Bulks",
             "id": 1352,
-            "url": "php"
+            "url": "/externalbulk"
           }
         ]
       }
@@ -63,26 +63,27 @@
           {
             "name": "Catalogue",
             "id": 1411,
-            "url": ""
+            "url": "/catalogue"
           },
           {
             "name": "Auction",
             "id": 1412,
-            "url": ""
+            "url": "/auction"
           },
           {
             "name": "Manage Grower Sales",
             "id": 1413,
+            "url": "/offernotification",
             "children": [
               {
                 "name": "Offer Notification",
                 "id": 14131,
-                "url": "/"
+                "url": "/offernotification"
               },
               {
                 "name": "Sale Notification",
                 "id": 14132,
-                "url": "/"
+                "url": "/salenotification"
               }
             ]
           }
@@ -95,7 +96,7 @@
           {
             "name": "Manage Direct Sale",
             "id": 1421,
-            "url": "/"
+            "url": "/directsalelayout"
           }
         ]
       }
@@ -112,12 +113,12 @@
           {
             "name": "Auction Invoices",
             "id": 1511,
-            "url": "/"
+            "url": "/dealers"
           },
           {
             "name": "Stock Positions",
             "id": 1512,
-            "url": "/"
+            "url": "/stockstatus"
           }
         ]
       },
@@ -128,12 +129,12 @@
           {
             "name": "Process Sale",
             "id": 1521,
-            "url": "/"
+            "url": "/payments"
           },
           {
             "name": "Payment Reports",
             "id": 1522,
-            "url": "/"
+            "url": ""
           }
         ]
       }
@@ -146,32 +147,32 @@
       {
         "name": "Grower Manager",
         "id": 161,
-        "url": "/"
+        "url": "/growerlayout"
       },
       {
-        "name": "Contact Manager",
+        "name": "Contract Manager",
         "id": 162,
-        "url": "/"
+        "url": "/contractlayout"
       },
       {
         "name": "Certification Manager",
         "id": 163,
-        "url": "/"
+        "url": "/certificationlayout"
       },
       {
         "name": "Location Manager",
         "id": 164,
-        "url": "/"
+        "url": "/locationlayout"
       },
       {
         "name": "Agents Manager",
         "id": 165,
-        "url": "/"
+        "url": "/agentlayout"
       },
       {
         "name": "More Settings",
         "id": 166,
-        "url": "/"
+        "url": "/settinglayout"
       }
     ]
   },
@@ -182,17 +183,17 @@
       {
         "name": "Manage Users",
         "id": 181,
-        "url": "/"
+        "url": "/userlayout"
       },
       {
         "name": "Manager Permissions",
         "id": 182,
-        "url": "/"
+        "url": "/permissionlayout"
       },
       {
         "name": "Manager Data",
         "id": 183,
-        "url": "/"
+        "url": "/datalayout"
       }
     ]
   },
@@ -203,22 +204,22 @@
       {
         "name": "Admin",
         "id": 191,
-        "url": "/"
+        "url": ""
       },
       {
         "name": "Change Password",
         "id": 192,
-        "url": "/"
+        "url": ""
       },
       {
         "name": "Logout",
         "id": 193,
-        "url": "/"
+        "url": ""
       },
       {
         "name": "Exit",
         "id": 194,
-        "url": "/"
+        "url": ""
       }
     ]
   },
@@ -229,17 +230,17 @@
       {
         "name": "About System",
         "id": 201,
-        "url": "/"
+        "url": ""
       },
       {
         "name": "User Guide",
         "id": 202,
-        "url": "/"
+        "url": ""
       },
       {
         "name": "Request Support",
         "id": 203,
-        "url": "/"
+        "url": ""
       }
     ]
   }

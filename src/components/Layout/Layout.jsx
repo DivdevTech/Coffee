@@ -11,7 +11,7 @@ const TabbedLayout = ({ buttonRenderers, tabContentRenderers }) => {
 
   return (
     <div>
-      <Link to={"home"}>
+      <Link to={"/home"}>
         <button style={{ width: "30px" }} className="closeBtn">
           X
         </button>
@@ -21,13 +21,13 @@ const TabbedLayout = ({ buttonRenderers, tabContentRenderers }) => {
         <div style={{ display: "flex" }}>
           {buttonRenderers &&
             buttonRenderers.map((renderer, index) => (
-              <button
+              <div
                 key={index}
                 onClick={() => handleTabClick(index)}
                 className={activeTabIndex === index ? "active" : ""}
               >
                 {renderer}
-              </button>
+              </div>
             ))}
         </div>
       </nav>
