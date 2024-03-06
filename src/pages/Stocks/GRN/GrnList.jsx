@@ -1,7 +1,12 @@
 import React from "react";
+import Hold from "../../../components/Filter/holdmyfile";
 
 const GrnList = () => {
-  return <div>GrnList</div>;
+  return (
+    <div>
+      <Hold />
+    </div>
+  );
 };
 
 export default GrnList;

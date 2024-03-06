@@ -4,8 +4,8 @@ import React from "react";
 const NavButton = ({ name }) => {
   const btnName = name;
   return (
-    <div>
-      <button>{btnName}</button>
+    <div className="menu-btns">
+      <button className="nav-btns">{btnName}</button>
     </div>
   );
 };

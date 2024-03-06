@@ -11,12 +11,6 @@ const TabbedLayout = ({ buttonRenderers, tabContentRenderers }) => {
 
   return (
     <div>
-      <Link to={"/home"}>
-        <button style={{ width: "30px" }} className="closeBtn">
-          X
-        </button>
-      </Link>
-
       <nav className="pagesNav">
         <div style={{ display: "flex" }}>
           {buttonRenderers &&
@@ -29,6 +23,11 @@ const TabbedLayout = ({ buttonRenderers, tabContentRenderers }) => {
                 {renderer}
               </div>
             ))}
+          <Link to={"/home"}>
+            <button style={{ width: "30px" }} className="closeBtn">
+              X
+            </button>
+          </Link>
         </div>
       </nav>
 

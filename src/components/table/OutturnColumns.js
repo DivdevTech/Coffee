@@ -1,58 +1,74 @@
+import { format } from "date-fns";
+import ColumnFilter from "../Filter/ColumnFilter";
+
 export const COLUMNS = [
   {
     Header: "Warrant",
-    accessor: "Warrant",
+    accessor: "GrowerId",
+    Filter: ColumnFilter,
   },
   {
     Header: "GRN NO",
-    accessor: "Grno",
+    accessor: "GrowerCode",
+    Filter: ColumnFilter,
   },
   {
     Header: "Grower Mark",
-    accessor: "Grower_mark",
+    accessor: "GrowerMark",
+    Filter: ColumnFilter,
   },
   {
     Header: "Grade",
-    accessor: "Grade",
+    accessor: "GrowerPin",
+    Filter: ColumnFilter,
   },
   {
     Header: "Outturn No",
-    accessor: "Outturn_no",
+    accessor: "GrowerTypeId",
+    Filter: ColumnFilter,
   },
   {
     Header: "Season",
-    accessor: "Season",
+    accessor: "CreatedOn",
+    Filter: ColumnFilter,
+    Cell: ({ value }) => {
+      return format(new Date(value), "dd/MM/yyyy");
+    },
   },
   {
     Header: "Weight",
-    accessor: "Weight",
+    accessor: "GrowerPostCode",
+    Filter: ColumnFilter,
   },
+  // {
+  //   Header: "Bags",
+  //   accessor: "GrowerPin",
+  // },
+  // {
+  //   Header: "Pkts",
+  //   accessor: "Pkts",
+  // },
+  // {
+  //   Header: "Quality",
+  //   accessor: "Quality",
+  // },
   {
-    Header: "Bags",
-    accessor: "Bags",
-  },
-  {
-    Header: "Pkts",
-    accessor: "Pkts",
-  },
-  {
-    Header: "Quality",
-    accessor: "Quality",
-  },
-  {
-    Header: "Class",
-    accessor: "Class",
+    Header: "Email",
+    accessor: "GrowerEmail",
+    Filter: ColumnFilter,
   },
   {
     Header: "Sellable_status",
-    accessor: "Sellable_status",
+    accessor: "FactoryID",
+    Filter: ColumnFilter,
   },
   {
-    Header: "Sale_status",
-    accessor: "Sale_status",
+    Header: "GrowerPostalTown",
+    accessor: "GrowerPostalTown",
+    Filter: ColumnFilter,
   },
-  {
-    Header: "Date",
-    accessor: "Date",
-  },
+  // {
+  //   Header: "Date",
+  //   accessor: "Date",
+  // },
 ];

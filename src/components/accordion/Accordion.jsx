@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import "./Accordion.css";
 import Chevron from "./chevron.svg";
 
-export default function Accordion() {
+export default function Accordion(prop) {
   const [toggle, setToggle] = useState(false);
   const [heightEl, setHeightEl] = useState();
 
@@ -22,7 +22,7 @@ export default function Accordion() {
     <div className="accordion">
       <button onClick={toggleState} className="accordion-visible">
         <img className={toggle && "active"} src={Chevron} />
-        <span>POST GRN</span>
+        <span>accordion</span>
       </button>
       <div className="hor-line"></div>
 
@@ -31,12 +31,7 @@ export default function Accordion() {
         style={{ height: toggle ? `${heightEl}` : "0px" }}
         ref={refHeight}
       >
-        <p aria-hidden={toggle ? "true" : "false"}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
-          suscipit quae maiores sunt ducimus est dolorem perspiciatis earum
-          corporis unde, dicta quibusdam aut placeat dignissimos distinctio vel
-          quo eligendi ipsam.
-        </p>
+        {/* <p aria-hidden={toggle ? "true" : "false"}>form</p> */}
       </div>
     </div>
   );

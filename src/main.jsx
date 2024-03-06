@@ -29,6 +29,7 @@ import SettingsLayout from "./pages/Settings/MoreSettings/SettingsLayout.jsx";
 import UserLayout from "./pages/Admin/ManageUsers/UserLayout.jsx";
 import PermissionsLayout from "./pages/Admin/ManagePermissions/PermissionsLayout.jsx";
 import DataLayout from "./pages/Admin/ManageData/DataLayout.jsx";
+import Hold from "./components/Filter/holdmyfile.jsx";
 
 const router = createBrowserRouter([
   {
@@ -39,7 +40,11 @@ const router = createBrowserRouter([
         path: "/",
         element: <App />,
       },
-
+      // hold
+      {
+        path: "hold",
+        element: <Hold />,
+      },
       // home links
       {
         path: "home",
