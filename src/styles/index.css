@@ -111,6 +111,7 @@ body {
   left: 5%;
   top: 10%;
 }
+
 .grnhead select {
   position: relative;
   padding: 8px;
@@ -211,6 +212,7 @@ body {
 
   color: #fff;
 }
+
 /* warrant tables */
 .warrant-head span {
   padding-left: 100px;
@@ -415,3 +417,540 @@ body {
   background-color: red;
   color: #fff;
 }
+
+/* warrant list */
+
+.warrantlist {
+  margin: 0;
+  top: 0;
+  right: 0;
+  height: 80vh;
+  max-width: 90%;
+}
+
+.warrantlist .wrapper {
+  max-width: 100%;
+  border: 1px solid blue;
+  height: inherit;
+}
+.warrantlist .wrapper .w-nav {
+  height: 5%;
+  background: linear-gradient(#f4ad70, #f3e1d1);
+}
+.warrantlist .wrapper .w-nav .load-data {
+  padding: 5px;
+  width: 10%;
+  background: transparent;
+}
+
+.warrantlist .wrapper .data-table {
+  padding: 1px;
+}
+.warrantlist .wrapper .data-table thead {
+  position: absolute;
+  top: 10%;
+  padding: 10px;
+  width: 89%;
+}
+.warrantlist .wrapper .data-table thead tr {
+  width: 100%;
+  display: flex;
+}
+.warrantlist .wrapper .data-table thead tr td {
+  background: linear-gradient(#e6edf7, #fff);
+  width: 100%;
+  display: flex;
+  border: 1px solid black;
+  border-top: none;
+  border-bottom: none;
+  border-color: #5a5050;
+  font-weight: lighter;
+}
+
+/* OUTTURNS */
+.outturn-head span {
+  padding-left: 100px;
+  padding-top: 15px;
+}
+.outturn-season {
+  font-weight: bold;
+  position: relative;
+  left: 1%;
+  top: 10%;
+}
+.outturn-head select {
+  position: relative;
+  padding: 8px;
+  width: 10em;
+  font-weight: bold;
+  top: 36%;
+  left: 35%;
+}
+
+.outturn-head .grade {
+  font-weight: bold;
+  position: absolute;
+  left: 24%;
+  top: 10%;
+}
+
+.outturn-head .grade-input {
+  position: relative;
+  padding: 5px;
+  width: 10em;
+  font-weight: bold;
+  top: 55%;
+  left: 80%;
+}
+
+.outturn-head .outturn {
+  font-weight: bold;
+  position: relative;
+  left: 15%;
+  top: 48%;
+}
+
+.outturn-head .outturn-input {
+  position: relative;
+  padding: 8px;
+  width: 15em;
+  font-weight: bold;
+  top: 50%;
+  left: 20%;
+}
+.search-outturns {
+  position: relative;
+  padding: 8px;
+  width: 10em;
+  font-weight: bold;
+  top: 50%;
+  left: 25%;
+}
+
+/* outturn table start */
+.outturn-wrapper {
+  padding-left: 5%;
+}
+.outturn-table {
+  position: absolute;
+  top: 27vh;
+  width: 80%;
+  padding: 5px;
+  border: 1px solid green;
+}
+
+.outturn-nav {
+  background: linear-gradient(#f4ad70, #f3e1d1);
+  display: flex;
+  color: #111;
+  height: 40px;
+}
+.outturn-nav li {
+  list-style: none;
+  padding-top: 10px;
+  color: #111;
+  padding-left: 120px;
+}
+.outturn-nav .OG {
+  display: flex;
+  margin: 12px;
+  gap: 13px;
+  padding-left: 10px;
+}
+.outturn-nav .OG button {
+  padding: 13px;
+  margin-top: -5px;
+  display: inline-flex;
+  border: 1px solid;
+  color: #fff;
+  background-color: transparent;
+}
+.outturn-nav .OG button p {
+  font-weight: bold;
+  margin-top: -10px;
+  color: #111;
+}
+.outturn-nav .OG h6 {
+  color: #111;
+  font-size: 20px;
+  margin-top: -20px;
+}
+
+.icon-background {
+  color: transparent;
+}
+
+.fa-info {
+  position: absolute;
+  padding-bottom: 30px;
+  color: blue;
+}
+
+.outturn-nav .max-weight p {
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.outturn-nav .w-weight p {
+  padding: 10px 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.outturn-nav .rmv-btn {
+  padding-left: 20px;
+}
+.outturn-nav .rmv-btn button {
+  padding: 5px 5px;
+  margin-top: 5px;
+  background-color: transparent;
+}
+
+.outturn-nav .numbers p {
+  padding-left: 80px;
+}
+.outturn-table .mini-table thead tr td {
+  padding: 10px 20px;
+}
+.outturn-table .mini-table tbody tr td {
+  padding: 10px 30px;
+}
+.outturn-table .mini-table tbody .row-one {
+  background-color: #c7dffc;
+
+  color: #111;
+}
+
+/* outturn table two */
+.outturn-table2 {
+  position: absolute;
+  top: 65vh;
+  width: 80%;
+  padding: 5px;
+  border: 1px solid green;
+}
+.outturn-table2 .mini-table thead tr td {
+  padding: 10px 20px;
+}
+.outturn-table2 .mini-table tbody tr td {
+  padding: 10px 30px;
+}
+.outturn-table2 .mini-table tbody .row-one {
+  background-color: #c7dffc;
+
+  color: #111;
+}
+
+.check-icon-background {
+  color: green;
+}
+
+.outturn-nav .post-warrrants {
+  padding-left: 3dvi;
+}
+.outturn-nav .post-warrrants button {
+  background-color: transparent;
+  margin-top: 5px;
+  padding: 5px 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.outturn-nav .split-weight {
+  padding-left: 50px;
+}
+.outturn-nav .split-weight p {
+  padding: 10px 10px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.outturn-nav .enable-btn {
+  padding-left: 60px;
+}
+.outturn-nav .enable-btn button {
+  padding: 5px 5px;
+  margin-top: 5px;
+  background-color: red;
+  color: #fff;
+}
+
+/* outturn list */
+
+.outturnlist {
+  margin: 0;
+  top: 0;
+  right: 0;
+  height: 80vh;
+  max-width: 90%;
+}
+
+.outturnlist .wrapper {
+  max-width: 100%;
+  border: 1px solid blue;
+  height: inherit;
+}
+.outturnlist .wrapper .w-nav {
+  height: 5%;
+  background: linear-gradient(#f4ad70, #f3e1d1);
+}
+.outturnlist .wrapper .w-nav .load-data {
+  padding: 5px;
+  width: 10%;
+  background: transparent;
+}
+
+.outturnlist .wrapper .data-table {
+  padding: 1px;
+}
+.outturnlist .wrapper .data-table thead {
+  position: absolute;
+  top: 10%;
+  padding: 10px;
+  width: 89%;
+}
+.outturnlist .wrapper .data-table thead tr {
+  width: 100%;
+  display: flex;
+}
+.outturnlist .wrapper .data-table thead tr td {
+  background: linear-gradient(#e6edf7, #fff);
+  width: 100%;
+  display: flex;
+  border: 1px solid black;
+  border-top: none;
+  border-bottom: none;
+  border-color: #5a5050;
+  font-weight: lighter;
+}
+
+/* QUALITY */
+/* quality forms */
+/* quality-list */
+
+.qualitylist {
+  margin: 0;
+  top: 0;
+  right: 0;
+  height: 80vh;
+  max-width: 90%;
+}
+
+.qualitylist .wrapper {
+  max-width: 100%;
+  border: 1px solid blue;
+  height: inherit;
+}
+.qualitylist .wrapper .w-nav {
+  height: 5%;
+  background: linear-gradient(#f4ad70, #f3e1d1);
+}
+.qualitylist .wrapper .w-nav .load-data {
+  padding: 5px;
+  width: 10%;
+  background: transparent;
+}
+
+.qualitylist .wrapper .data-table {
+  padding: 1px;
+}
+.qualitylist .wrapper .data-table thead {
+  position: absolute;
+  top: 10%;
+  padding: 10px;
+  width: 89%;
+}
+.qualitylist .wrapper .data-table thead tr {
+  width: 100%;
+  display: flex;
+}
+.qualitylist .wrapper .data-table thead tr td {
+  background: linear-gradient(#e6edf7, #fff);
+  width: 100%;
+  display: flex;
+  border: 1px solid black;
+  border-top: none;
+  border-bottom: none;
+  border-color: #5a5050;
+  font-weight: lighter;
+}
+
+/* Qualityreport */
+.qr-wrapper {
+  position: absolute;
+  top: 3%;
+  left: -3%;
+  font-size: 15px;
+  color: brown;
+}
+.qr-wrapper hr.quality-hor {
+  position: relative;
+  top: 3.5vh;
+  width: 104em;
+}
+.quality-head span {
+  padding-left: 100px;
+  padding-top: 15px;
+}
+.quality-season {
+  font-weight: bold;
+  position: relative;
+  left: 1%;
+  top: 10%;
+}
+.quality-season label {
+  font-weight: bold;
+  position: absolute;
+  left: 30%;
+  top: 70%;
+}
+.quality-head select {
+  position: relative;
+  padding: 8px;
+  width: 10em;
+  font-weight: bold;
+  top: 36%;
+  left: 35%;
+}
+
+.quality-head .grade {
+  font-weight: bold;
+  position: absolute;
+  left: 24%;
+  top: 75%;
+}
+
+.quality-head .grade-input {
+  position: relative;
+  padding: 5px;
+  width: 10em;
+  font-weight: bold;
+  top: 55%;
+  left: 80%;
+}
+
+.quality-head .outturn {
+  font-weight: bold;
+  position: relative;
+  left: 15%;
+  top: 48%;
+}
+
+.quality-head .outturn-input {
+  position: relative;
+  padding: 8px;
+  width: 15em;
+  font-weight: bold;
+  top: 50%;
+  left: 20%;
+}
+.search-qualitys {
+  position: relative;
+  padding: 8px;
+  width: 10em;
+  font-weight: bold;
+  top: 50%;
+  left: 25%;
+}
+
+/* BULKS */
+
+/* internal bulks */
+
+/* internal list bulks */
+
+.int-bulklist {
+  margin: 0;
+  top: 0;
+  right: 0;
+  height: 80vh;
+  max-width: 90%;
+}
+
+.int-bulklist .wrapper {
+  max-width: 100%;
+  border: 1px solid blue;
+  height: inherit;
+}
+.int-bulklist .wrapper .w-nav {
+  height: 5%;
+  background: linear-gradient(#f4ad70, #f3e1d1);
+}
+.int-bulklist .wrapper .w-nav .load-data {
+  padding: 5px;
+  width: 10%;
+  background: transparent;
+}
+
+.int-bulklist .wrapper .data-table {
+  padding: 1px;
+}
+.int-bulklist .wrapper .data-table thead {
+  position: absolute;
+  top: 10%;
+  padding: 10px;
+  width: 89%;
+}
+.int-bulklist .wrapper .data-table thead tr {
+  width: 100%;
+  display: flex;
+}
+.int-bulklist .wrapper .data-table thead tr td {
+  background: linear-gradient(#e6edf7, #fff);
+  width: 100%;
+  display: flex;
+  border: 1px solid black;
+  border-top: none;
+  border-bottom: none;
+  border-color: #5a5050;
+  font-weight: lighter;
+}
+
+/* external bulks */
+
+/* external list bulks */
+
+.ext-bulklist {
+  margin: 0;
+  top: 0;
+  right: 0;
+  height: 80vh;
+  max-width: 90%;
+}
+
+.ext-bulklist .wrapper {
+  max-width: 100%;
+  border: 1px solid blue;
+  height: inherit;
+}
+.ext-bulklist .wrapper .w-nav {
+  height: 5%;
+  background: linear-gradient(#f4ad70, #f3e1d1);
+}
+.ext-bulklist .wrapper .w-nav .load-data {
+  padding: 5px;
+  width: 10%;
+  background: transparent;
+}
+
+.ext-bulklist .wrapper .data-table {
+  padding: 1px;
+}
+.ext-bulklist .wrapper .data-table thead {
+  position: absolute;
+  top: 10%;
+  padding: 10px;
+  width: 89%;
+}
+.ext-bulklist .wrapper .data-table thead tr {
+  width: 100%;
+  display: flex;
+}
+.ext-bulklist .wrapper .data-table thead tr td {
+  background: linear-gradient(#e6edf7, #fff);
+  width: 100%;
+  display: flex;
+  border: 1px solid black;
+  border-top: none;
+  border-bottom: none;
+  border-color: #5a5050;
+  font-weight: lighter;
+}
+
